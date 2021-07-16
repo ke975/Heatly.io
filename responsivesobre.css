@@ -1,0 +1,23 @@
+@media(min-width:360px){
+    .contenedor {
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 360px;
+        font-size: 20px;
+
+    }
+
+     .about img{
+      
+        width: 50px;
+        height: 200px;
+    }
+
+    .rs .pr {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .rs .pr h1 {
+       font-size: 12px;
+    }
+}
