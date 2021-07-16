@@ -1,0 +1,51 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: black;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+ 
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 280px;
+  height: 280px;
+  margin-top: 40px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.integrants{
+    margin-bottom: 10px;
+}
+
+.integrants ul, li{
+    color: white;
+    text-align: center;
+    list-style: none;
+    font-size: 15px;
+    font-family: 'DM Sans' , sans-serif;
+    margin-top: 10px;
+}
+
+.integrants .h1{
+    font-family: 'Puppins', sans-serif;
+}

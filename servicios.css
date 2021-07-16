@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.title{
+text-align: center;
+margin-top: 40px;
+width: 1300px;
+
+}
+
+.title p{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'DM Sans' , sans-serif;
+    font-weight: 400;
+}
+
+.galery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.galery .card{
+    width: 352px;
+    height: 352px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    border-bottom: solid 4px #69B99D;
+}
+
+.galery .card header img{
+    width: 75px;
+    height: 75px;
+ margin-left: 130px;
+ margin-top: 10px;
+}
+
+.galery .card header h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.galery .card .cuerpo p {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'DM Sans' sans-serif;
+    color: gray;
+    margin-top: -10px;
+}
+
+footer {
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+footer img{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin: 20px;
+}

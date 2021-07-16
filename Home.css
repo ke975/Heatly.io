@@ -1,0 +1,52 @@
+/*Reseteo de los esteilos de nuestra pagina web*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color:whitesmoke;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1300px;
+    height: 500px;
+    
+}
+
+.contenedor .text {
+    margin-left: 45px;
+}
+
+.contenedor .text h1{
+    font-size: 35px;
+    color: black;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+}
+
+.contenedor .text p{
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.contenedor .text button{
+    width: 218px;
+    height: 50px;
+    border-radius: 4px;
+    color: #F9F9F9;
+    background: #69B99D;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+
+.contenedor .pr img{
+    width: 561px;
+    height: 375px;
+}
